@@ -69,8 +69,11 @@
   <ItemGroup>
     <Content Include="01-CountTotalNumberOfSundayInMonth.aspx" />
     <Content Include="02-BinarySearch.aspx" />
+    <Content Include="03-ReverseAString.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="01-CountTotalNumberOfSundayInMonth.aspx.cs">
@@ -86,6 +89,13 @@
     </Compile>
     <Compile Include="02-BinarySearch.aspx.designer.cs">
       <DependentUpon>02-BinarySearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="03-ReverseAString.aspx.cs">
+      <DependentUpon>03-ReverseAString.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="03-ReverseAString.aspx.designer.cs">
+      <DependentUpon>03-ReverseAString.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
