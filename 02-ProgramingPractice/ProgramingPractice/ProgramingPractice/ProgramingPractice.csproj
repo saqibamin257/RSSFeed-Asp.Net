@@ -70,6 +70,7 @@
     <Content Include="01-CountTotalNumberOfSundayInMonth.aspx" />
     <Content Include="02-BinarySearch.aspx" />
     <Content Include="03-ReverseAString.aspx" />
+    <Content Include="04-Palindrome.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -96,6 +97,13 @@
     </Compile>
     <Compile Include="03-ReverseAString.aspx.designer.cs">
       <DependentUpon>03-ReverseAString.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="04-Palindrome.aspx.cs">
+      <DependentUpon>04-Palindrome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="04-Palindrome.aspx.designer.cs">
+      <DependentUpon>04-Palindrome.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
