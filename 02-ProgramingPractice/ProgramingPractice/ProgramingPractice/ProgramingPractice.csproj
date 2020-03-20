@@ -72,6 +72,7 @@
     <Content Include="03-ReverseAString.aspx" />
     <Content Include="04-Palindrome.aspx" />
     <Content Include="05-CountOccuranceOfCharacter.aspx" />
+    <Content Include="06-MultiThreading.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -112,6 +113,13 @@
     </Compile>
     <Compile Include="05-CountOccuranceOfCharacter.aspx.designer.cs">
       <DependentUpon>05-CountOccuranceOfCharacter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="06-MultiThreading.aspx.cs">
+      <DependentUpon>06-MultiThreading.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="06-MultiThreading.aspx.designer.cs">
+      <DependentUpon>06-MultiThreading.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
