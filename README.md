@@ -1,5 +1,5 @@
 **Project Objective**
-Parse live news feed data from XML and show data in grid view.
+*Parse live news feed data from XML and show data in grid view.
 
 **Techology/Tools used**
 * Asp.Net Web Forms
